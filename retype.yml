@@ -1,0 +1,21 @@
+# ---------------------
+# Retype
+# ---------------------
+
+input: ./
+output: .retype
+url: retypeapp.github.io/testing/
+
+branding:
+  title: Testing
+  label: v0.1
+
+meta:
+  title: " - DOCS"
+
+generator:
+  paths: root
+  trailingSlash: false
+
+edit:
+  repo: github.com/retypeapp/testing/
