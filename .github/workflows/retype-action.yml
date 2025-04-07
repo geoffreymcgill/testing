@@ -17,11 +17,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: 9.0.x
+      # - uses: actions/setup-dotnet@v4
+      #   with:
+      #     dotnet-version: 9.0.x
 
-      - uses: retypeapp/action-build@latest
+      - uses: retypeapp/action-build@issue-32
 
       - uses: retypeapp/action-github-pages@latest
         with:
