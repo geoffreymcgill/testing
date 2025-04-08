@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://retypeapp.github.io/testing/sitemap.xml.gz
+Sitemap: https://beta.retype.com/sitemap.xml.gz
