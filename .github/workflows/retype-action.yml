@@ -24,6 +24,7 @@ jobs:
       - uses: retypeapp/action-build@multi2
         with:
           override: '"{\"url\": \"https://beta.retype.com\"}"'
+          verbose: true
 
       - uses: retypeapp/action-github-pages@latest
         with:
