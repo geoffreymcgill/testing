@@ -23,7 +23,7 @@ jobs:
 
       - uses: retypeapp/action-build@multi2
         with:
-          override: '"{\\"url\\": \\"https://beta.retype.com\\"}"'
+          override: '"{\"url\": \"https://beta.retype.com\"}"'
 
       - uses: retypeapp/action-github-pages@latest
         with:
